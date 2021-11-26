@@ -73,7 +73,7 @@
 }
 
 #logo_SMN{
-    height: 100px;
+    height: 110px;
     width: 15vw;
     
 }
@@ -108,10 +108,10 @@
 .grand_titre{
     position: absolute;
     /* position: fixed; */
-    margin: 50px 230px 0px;
+    margin: 170px 120px 0px;
     color: white;
-    font-size: 90px;
-    width: 1250px;
+    font-size: 60px;
+    width: 1050px;
     text-align: center;
     font-weight: bold;
 }
@@ -119,7 +119,7 @@
 .sous_titre{
     position: absolute;
     /* z-index: 1; */
-    margin: 380px 150px 0px;
+    margin: 380px 90px 0px 0px;
     color: white;
     font-size: 30px;
     /* border: 2px solid green; */
@@ -183,7 +183,7 @@
 
 .les_services{
     display: grid;
-    grid-template-columns: repeat(auto-fill, 650px);
+    grid-template-columns: repeat(auto-fill, 550px);
     grid-gap: 5px;
     justify-content: center;
     width: 90%;
@@ -199,7 +199,7 @@
 
 .bureau{
     background-color: #e7aae3;
-    width: 650px;
+    width: 550px;
     height: 250px;
     display: flex;
     flex-direction: row;
@@ -208,7 +208,7 @@
 
 .maison{
     background-color: #116dFF;
-    width: 650px;
+    width: 550px;
     height: 250px;
     display: flex;
     flex-direction: row;
@@ -216,7 +216,7 @@
 
 .fenetres{
     background-color: #7facf5;
-    width: 650px;
+    width: 550px;
     height: 250px;
     display: flex;
     flex-direction: row;
@@ -225,7 +225,7 @@
 
 .parties_communes{
    background-color:#8cf8c6;
-   width: 650px;
+   width: 550px;
     height: 250px;
     display: flex;
     flex-direction: row;
@@ -233,7 +233,7 @@
 
 .demenagement{
     background-color:#DEFF4F;
-    width: 650px;
+    width: 550px;
     height: 250px;
     display: flex;
     flex-direction: row;
@@ -241,14 +241,16 @@
 
 .moquette{
     background-color: rgb(197, 45, 45);
-    width: 650px;
+    width: 550px;
     height: 250px;
 }
 
 .nos_services{
-    margin: 60px 700px;
+    margin: 60px 500px;
     color: #116dFF;
     font-weight: bold;
+    width: 280px;
+  
 }
 
 .femmeDeMenage{
@@ -258,32 +260,32 @@
 }
 
 .Text_de_menage{
-    width: 50%;
+    width: 60%;
    margin: auto;
-   font-size: 28px;
+   font-size: 22px;
    color: white;
     
 }
 
 .Text_maison{
-    width: 55%;
+    width: 65%;
    margin: auto;
-   font-size: 28px;
+   font-size: 22px;
    color: white;
 }
 
 .Text_maison_hotes{
-    width: 50%;
+    width: 65%;
    margin:auto;
-   font-size: 28px;
+   font-size: 22px;
    color: white;
  
 }
 
 .Text_parties_communes{
-    width: 55%;
+    width: 65%;
    margin: auto;
-   font-size: 28px;
+   font-size: 22px;
    color: white;
    
 }
@@ -326,7 +328,7 @@ h2{
 .infos{
     width: 350px;
     height: 200px;
-    margin: auto 210px;
+    margin: auto 60px;
     text-align: justify;
     color: white;
     font-size: 20px;
