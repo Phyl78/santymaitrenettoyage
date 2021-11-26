@@ -1,0 +1,333 @@
+.fond{
+    /* height: 50px; */
+    background-color: #ecf0f0;
+}
+
+.fond2{
+    background-color: #116dFF;
+    /* height: 100px; */
+}
+
+.fond3{
+    background-color:#DEFF4F ;
+    height: 300px;
+}
+
+
+.row .second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+/* insertion de style des colones bootstrap  */
+
+.col3{
+    height: 50px;
+    background-color: #DEFF4F;
+    font-size: 27px;
+    
+    
+}
+
+ .col5, .col6, .col7, .col8, .col9{
+    /* border: 2px solid red; */
+    font-size: 25px;
+    padding-top: 30px;
+    color: white;
+   
+}
+
+.col4{
+
+    /* border: 2px solid yellow; */
+    padding: 0px !important;
+}
+
+
+.col10, .col11, .col12, .col13, .col14
+{
+    /* border: 2px solid red; */
+    font-size: 25px;
+    padding-top: 30px;
+    color: #116dFF;
+    font-weight: bold;
+   
+}
+
+.colnom, .colprenom, .colemail, .colobjet, .colmessage 
+
+/* insertion de style sur les logos */
+
+.fa-instagram{
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+.fa-facebook{
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+#logo_SMN{
+    height: 100px;
+    width: 15vw;
+    
+}
+
+.corpsDuSite{
+    background-color: #F997B5;
+    /* position: relative; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+/* Insertion de style sur des images */
+
+.image_des_eponges{
+    width: 1300px;
+    height: 480px;
+    margin: 0px auto 0px;
+    /* border: 2px solid blue; */
+    
+}
+
+/* Insertion de style sur la vidéo */
+
+.video{
+    margin: auto;
+}
+
+/* Insertion de style sur les titres */
+
+.grand_titre{
+    position: absolute;
+    /* position: fixed; */
+    margin: 50px 230px 0px;
+    color: white;
+    font-size: 90px;
+    width: 1250px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sous_titre{
+    position: absolute;
+    /* z-index: 1; */
+    margin: 380px 150px 0px;
+    color: white;
+    font-size: 30px;
+    /* border: 2px solid green; */
+    text-align: center;
+    width: 1400px;
+}
+
+
+/* Insertion de style sur les boutons */
+
+.devis{
+    background-color:#DEFF4F ;
+    width: 350px;
+    height: 50px;
+    margin: -30px auto 60px ;
+    text-align: center;
+    font-size: 30px;
+    /* font-weight: bold; */
+    color: #116dFF;
+}
+
+
+.btn-custom{
+    background-color: #DEFF4F;
+    font-size: 28px;
+    width: 140px;
+    margin: auto;
+}
+
+/* Insertion de style sur le body */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.container1{
+    margin: 0px 20px;
+    text-align: justify;
+    padding: 0px 50px 0px;
+    font-size: 20px;
+}
+
+.container2{
+    margin: 0px 20px;
+    text-align: justify;
+    padding: 0px 50px 0px;
+    font-size: 20px;
+}
+
+
+.contact{
+    /* border: 2px solid yellow; */
+    margin: auto;
+    
+    
+}
+
+
+.les_services{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 650px);
+    grid-gap: 5px;
+    justify-content: center;
+    width: 90%;
+    max-width: 1350px;
+    height: auto;
+    margin: 100px auto 20px;
+    /* border: 2px solid red; */
+
+}
+
+
+/* les services */
+
+.bureau{
+    background-color: #e7aae3;
+    width: 650px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+.maison{
+    background-color: #116dFF;
+    width: 650px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.fenetres{
+    background-color: #7facf5;
+    width: 650px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.parties_communes{
+   background-color:#8cf8c6;
+   width: 650px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.demenagement{
+    background-color:#DEFF4F;
+    width: 650px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.moquette{
+    background-color: rgb(197, 45, 45);
+    width: 650px;
+    height: 250px;
+}
+
+.nos_services{
+    margin: 60px 700px;
+    color: #116dFF;
+    font-weight: bold;
+}
+
+.femmeDeMenage{
+    height: 250px;
+    width: 100%;
+    
+}
+
+.Text_de_menage{
+    width: 50%;
+   margin: auto;
+   font-size: 28px;
+   color: white;
+    
+}
+
+.Text_maison{
+    width: 55%;
+   margin: auto;
+   font-size: 28px;
+   color: white;
+}
+
+.Text_maison_hotes{
+    width: 50%;
+   margin:auto;
+   font-size: 28px;
+   color: white;
+ 
+}
+
+.Text_parties_communes{
+    width: 55%;
+   margin: auto;
+   font-size: 28px;
+   color: white;
+   
+}
+
+.tapis{
+    width: 100%;
+    height:250px;
+}
+
+
+.titre
+{
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    justify-content: center;
+    margin: 30px auto 0px;
+    min-width: 640px;
+    height: 500px;
+    width: 100%;
+
+    
+}
+
+h2{
+    margin-bottom: 50px;
+}
+
+.pied_de_page{
+    background-color:#116dFF ;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 350px);
+    grid-gap:80px;
+    height: 350px;
+    justify-content: center;
+    
+}
+
+.infos{
+    width: 350px;
+    height: 200px;
+    margin: auto 210px;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+}
