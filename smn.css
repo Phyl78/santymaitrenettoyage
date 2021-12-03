@@ -10,7 +10,8 @@
 
 .fond3{
     background-color:#DEFF4F ;
-    height: 300px;
+    height: auto;
+    
 }
 
 
@@ -84,15 +85,20 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    /* border: 2px solid red; */
+
    
 }
 
 /* Insertion de style sur des images */
 
 .image_des_eponges{
-    width: 1300px;
+    /* max-width: 662px; */
+    /* min-width: 240px;  */
+    /* width: 1300px; */
+    width: auto;
     height: 480px;
-    margin: 0px auto 0px;
+    margin: auto;
     /* border: 2px solid blue; */
     
 }
@@ -108,10 +114,10 @@
 .grand_titre{
     position: absolute;
     /* position: fixed; */
-    margin: 170px 120px 0px;
+    margin: 170px auto 0px;
     color: white;
     font-size: 60px;
-    width: 1050px;
+    width: auto;
     text-align: center;
     font-weight: bold;
 }
@@ -119,12 +125,12 @@
 .sous_titre{
     position: absolute;
     /* z-index: 1; */
-    margin: 380px 90px 0px 0px;
+    margin: 520px auto 0px;
     color: white;
     font-size: 30px;
     /* border: 2px solid green; */
     text-align: center;
-    width: 1400px;
+    width: auto;
 }
 
 
@@ -134,7 +140,7 @@
     background-color:#DEFF4F ;
     width: 350px;
     height: 50px;
-    margin: -30px auto 60px ;
+    margin: 220px auto 60px ;
     text-align: center;
     font-size: 30px;
     /* font-weight: bold; */
@@ -155,30 +161,26 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    /* border: 2px solid red; */
     
-}
-
-.container1{
-    margin: 0px 20px;
-    text-align: justify;
-    padding: 0px 50px 0px;
-    font-size: 20px;
-}
-
-.container2{
-    margin: 0px 20px;
-    text-align: justify;
-    padding: 0px 50px 0px;
-    font-size: 20px;
 }
 
 
 .contact{
-    /* border: 2px solid yellow; */
     margin: auto;
-    
+    height: auto;
+    padding-bottom: 20px;
     
 }
+
+.titre{
+    /* border: 2px solid red; */
+    margin: auto;
+    height: auto;
+   
+    
+}
+
 
 
 .les_services{
@@ -189,7 +191,7 @@
     width: 90%;
     max-width: 1350px;
     height: auto;
-    margin: 100px auto 20px;
+    margin: 100px auto 30px;
     /* border: 2px solid red; */
 
 }
@@ -246,16 +248,18 @@
 }
 
 .nos_services{
-    margin: 60px 500px;
+    margin: auto;
     color: #116dFF;
     font-weight: bold;
-    width: 280px;
+    text-align: center;
+    padding-top: 50px;
   
 }
 
 .femmeDeMenage{
     height: 250px;
     width: 100%;
+    /* padding-left: 40px; */
     
 }
 
@@ -319,9 +323,10 @@ h2{
     background-color:#116dFF ;
     display: grid;
     grid-template-columns: repeat(auto-fill, 350px);
-    grid-gap:80px;
-    height: 350px;
+    grid-gap:30px;
+    height: auto;
     justify-content: center;
+    padding-top: 30px;
     
 }
 
@@ -332,4 +337,8 @@ h2{
     text-align: justify;
     color: white;
     font-size: 20px;
+}
+
+.notre_societe{
+    max-width: 250px;
 }
