@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .fond{
     /* height: 50px; */
     background-color: #ecf0f0;
@@ -93,28 +97,54 @@
 /* Insertion de style sur des images */
 
 .image_des_eponges{
-    /* max-width: 662px; */
-    /* min-width: 240px;  */
-    /* width: 1300px; */
-    width: auto;
+ 
+    width: 510px;
+    /* max-width: 1250px; */
     height: 480px;
-    margin: auto;
+    margin: 90px auto;
+    transform: translate(-25%, -25%);
     /* border: 2px solid blue; */
     
 }
 
 /* Insertion de style sur la vidéo */
 
+@media (max-screen:578px) {
+    .femmeDeMenage{
+        width: 50%;
+    }   
+
+    .Text_de_menage{
+        width: 50%;
+    }
+}
+
+@media (max-screen:700px){
+    .fond3{
+        height: 100%;
+    }
+}    
+
+
 .video{
     margin: auto;
+    /* border: 2px solid black; */
+    width: 80%;
+    /* transform: translate(-25%, -25%); */
 }
 
 /* Insertion de style sur les titres */
 
 .grand_titre{
+    /* l'absolute recherche le premier élement qui est relatif au body il s'allie à l'élément relatif 
+    comme un parent */
     position: absolute;
-    /* position: fixed; */
-    margin: 170px auto 0px;
+    /* border: 2px solid black; */
+    right: 25%;
+    left: 25%;
+    transform: translate(-25%, -25%);
+    max-height: 300px;
+    margin: 170px auto;
     color: white;
     font-size: 60px;
     width: auto;
@@ -124,8 +154,12 @@
 
 .sous_titre{
     position: absolute;
-    /* z-index: 1; */
-    margin: 520px auto 0px;
+    /* border: 2px solid black; */
+    right: 25%;
+    left: 25%;
+    transform: translate(-25%, -25%);
+    max-height: 200px;
+    margin: 590px auto;
     color: white;
     font-size: 30px;
     /* border: 2px solid green; */
@@ -140,7 +174,7 @@
     background-color:#DEFF4F ;
     width: 350px;
     height: 50px;
-    margin: 220px auto 60px ;
+    margin: 250px auto 60px ;
     text-align: center;
     font-size: 30px;
     /* font-weight: bold; */
@@ -188,11 +222,12 @@
     grid-template-columns: repeat(auto-fill, 550px);
     grid-gap: 5px;
     justify-content: center;
-    width: 90%;
-    max-width: 1350px;
+    /* width: auto; */
+    /* max-width: 1350px; */
     height: auto;
     margin: 100px auto 30px;
-    /* border: 2px solid red; */
+    /* border: 2px solid black; */
+    /* width: 90%; */
 
 }
 
@@ -201,10 +236,12 @@
 
 .bureau{
     background-color: #e7aae3;
-    width: 550px;
-    height: 250px;
+    /* width: 100%;
+    height: 100%; */
     display: flex;
     flex-direction: row;
+    
+    /* border: 2px solid red; */
  
 }
 
@@ -257,14 +294,14 @@
 }
 
 .femmeDeMenage{
-    height: 250px;
+    height: 100%;
     width: 100%;
     /* padding-left: 40px; */
     
 }
 
 .Text_de_menage{
-    width: 60%;
+    width: 50%;
    margin: auto;
    font-size: 22px;
    color: white;
@@ -325,18 +362,22 @@ h2{
     grid-template-columns: repeat(auto-fill, 350px);
     grid-gap:30px;
     height: auto;
+    /* border: 2px solid yellow; */
     justify-content: center;
     padding-top: 30px;
+    padding-bottom: 30px;
     
 }
 
 .infos{
-    width: 350px;
+    width: 280px;
     height: 200px;
     margin: auto 60px;
     text-align: justify;
     color: white;
     font-size: 20px;
+     /* border: 2px solid yellow; */
+    
 }
 
 .notre_societe{
