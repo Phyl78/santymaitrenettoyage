@@ -107,23 +107,84 @@
     
 }
 
-/* Insertion de style sur la vidéo */
 
-@media (max-screen:578px) {
-    .femmeDeMenage{
-        width: 50%;
-    }   
+/* zone media query */
 
-    .Text_de_menage{
-        width: 50%;
+@media screen and (max-width: 394px){
+
+    .bureau{
+        width: 123vw;
+        height: 50vw;
+    }
+
+    .maison{
+        width: 123vw;
+        height: 50vw;
+    }
+
+    .fenetres{
+        width: 123vw;
+        height: 50vw;
+    }
+    
+    .parties_communes{
+
+        width: 123vw;
+        height: 50vw;
+    }
+
+    .demenagement{
+
+        width: 123vw;
+        height: 50vw;
+    }
+
+    .moquette{
+        width: 123vw;
+        height: 50vw;
+    }
+
+
+}
+
+
+@media screen and (max-width: 482px){
+
+    .bureau{
+        max-width: 68%;
+    }
+
+    .maison{
+        max-width: 68%;
+    }
+
+    .fenetres{
+        max-width: 68%;
+    }
+
+    .parties_communes{
+        max-width: 68%;
+    }
+
+    .demenagement{
+        max-width: 68%;
+    }
+
+    .moquette{
+        max-width: 68%;
+    }
+
+
+    .image_des_eponges{
+
+        transform: translate(2%, 2%);
+        margin: auto;
+
     }
 }
 
-@media (max-screen:700px){
-    .fond3{
-        height: 100%;
-    }
-}    
+
+/* Insertion de style sur la vidéo */
 
 
 .video{
@@ -236,52 +297,59 @@
 
 .bureau{
     background-color: #e7aae3;
-    /* width: 100%;
-    height: 100%; */
+    width: 84%;
+    height: 250px;
     display: flex;
     flex-direction: row;
-    
+    margin: auto;
     /* border: 2px solid red; */
  
 }
 
 .maison{
     background-color: #116dFF;
-    width: 550px;
+    width: 84%;
     height: 250px;
     display: flex;
     flex-direction: row;
+    margin: auto;
+
+    
 }
 
 .fenetres{
     background-color: #7facf5;
-    width: 550px;
+    width: 84%;
     height: 250px;
     display: flex;
     flex-direction: row;
+    margin: auto;
 }
 
 
 .parties_communes{
    background-color:#8cf8c6;
-   width: 550px;
+   width: 84%;
     height: 250px;
     display: flex;
     flex-direction: row;
+    margin: auto;
 }
 
 .demenagement{
     background-color:#DEFF4F;
-    width: 550px;
+    width: 84%;
     height: 250px;
     display: flex;
     flex-direction: row;
+    margin: auto;
 }
 
 .moquette{
     background-color: rgb(197, 45, 45);
-    width: 550px;
+    width: 84%;
     height: 250px;
+    margin: auto;
 }
 
 .nos_services{
@@ -301,23 +369,26 @@
 }
 
 .Text_de_menage{
-    width: 50%;
+    /* width: 50%; */
    margin: auto;
+   text-align: center;
    font-size: 22px;
    color: white;
     
 }
 
 .Text_maison{
-    width: 65%;
+    
    margin: auto;
+   text-align: center;
    font-size: 22px;
    color: white;
 }
 
 .Text_maison_hotes{
-    width: 65%;
+    
    margin:auto;
+   text-align: center;
    font-size: 22px;
    color: white;
  
@@ -326,6 +397,7 @@
 .Text_parties_communes{
     width: 65%;
    margin: auto;
+   text-align: center;
    font-size: 22px;
    color: white;
    
@@ -382,4 +454,23 @@ h2{
 
 .notre_societe{
     max-width: 250px;
+}
+
+/* css du new form de contact */
+
+.container .boot {
+
+    background-image: url(images/carre.png);
+    background-repeat: no-repeat;
+    background-size: 170%;
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    
+
+}
+
+
+body{
+    /* border: 2px solid red; */
 }

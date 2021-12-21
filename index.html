@@ -101,7 +101,7 @@
 
         <div class="bureau"> 
 
-                <div class="Text_de_menage"> <span style="margin: 0px 35px;" > Ménage de bureau </span></div>
+                <div class="Text_de_menage"> <span style="margin: auto; text-align: justify;" > Ménage de bureau </span></div>
 
                 <div>  <img src="images/bureau-removebg-preview.png" class="femmeDeMenage" alt=""> </div>
 
@@ -110,7 +110,7 @@
 
         <div class="maison">
 
-            <div class="Text_maison"> <span style="margin: 0px 35px;" > Ménage à la maison </span></div>
+            <div class="Text_maison"> <span style="margin:auto; text-align: justify;" > Ménage à la maison </span></div>
 
             <div> <img src="images/maison-removebg-preview.png" class="femmeDeMenage" alt=""></div>
 
@@ -118,7 +118,7 @@
 
         <div class="fenetres">
 
-            <div class="Text_maison_hotes"> <span style="margin: 0px 35px;" > <span style="text-align: center;" > Ménage en maison </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; d'hôtes </span></div>
+            <div class="Text_maison_hotes"> <span style="margin:auto; text-align: center;" > Ménage en maison d'hôtes </span></div>
 
             <div> <img src="images/fenetres-removebg-preview.png" class="femmeDeMenage" alt=""></div>
 
@@ -126,7 +126,7 @@
 
         <div class="parties_communes">
 
-            <div class="Text_parties_communes"> <span style="margin: 0px 35px;" > Ménage des parties</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; communes </div>
+            <div class="Text_parties_communes"> <span style="margin:auto; text-align: center;" > Ménage des parties</br> communes </div>
 
             <div> <img src="images/Sans_titre-removebg-preview.png" class="femmeDeMenage" alt=""></div>
 
@@ -135,7 +135,7 @@
 
         <div class="demenagement">
 
-            <div class="Text_parties_communes"> <span style="margin: 0px 35px;" > Ménage après</br> &nbsp;&nbsp;&nbsp; déménagement</div>
+            <div class="Text_parties_communes"> <span style="margin:auto; text-align: justify;" > Ménage après</br>déménagement</div>
 
             <div> <img src="images/ballaie-removebg-preview.png" class="femmeDeMenage" alt=""></div>
     
@@ -210,8 +210,67 @@
 
     </div>
 
+    <!-- zone de contact -->
 
-    <div class="zone_de_contact">
+    <div class="container boot">
+ 
+        <div class="d-flex justify-content-center">
+    
+            <div class="col-8 m-4">
+    
+                <form action="contact.php" method="POST">
+    
+                    <div class="form-group">
+    
+                        <div class="text-center">
+                            
+                            <h1>Contactez-moi</h1>
+    
+                        </div>
+    
+                        <div class="d-flex">
+    
+                            <input type="text" name="Nom" placeholder="Nom" autocomplete="off" class="form-control"/>
+                            <input type="text" name="Prenom" placeholder="Prenom" autocomplete="off" class="form-control"/>
+                        
+                        </div>
+                    </br>
+                        <div class="d-flex">
+    
+                            <input type="text" name="numero" placeholder="Portable" autocomplete="off" class="form-control"/>
+                            <input type="text" name="adresse" placeholder="Adresse postale" autocomplete="off" class="form-control"/>
+                        
+                        </div>
+    
+                        </br>
+                        <input type="email" name="email" placeholder="email" autocomplete="off" class="form-control"/>
+                    
+                        </br>
+    
+                        <textarea name="10" name="message" placeholder="votre message" class="form-control"></textarea>
+    
+                        </br>
+    
+                        <div class="text-center">
+    
+                        <button type="submit" class="btn btn-lg btn-primary">Envoyer</button>
+    
+                    </div>
+    
+                    </div>
+    
+                </form>
+    
+            </div>
+    
+        </div>
+    
+    </div>
+
+    <!-- Fin de la zone de contact -->
+
+
+    <!-- <div class="zone_de_contact">
 
         <div class="container  contact">
            
@@ -247,7 +306,7 @@
 
         </div>
 
-    </div>
+    </div> -->
 
       <footer class="pied_de_page">
 
