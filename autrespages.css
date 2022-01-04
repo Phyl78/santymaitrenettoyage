@@ -1,0 +1,160 @@
+.fond{
+    /* height: 50px; */
+    background-color: #ecf0f0;
+}
+
+
+.fond2{
+    background-color: #116dFF;
+    /* border: 2px solid yellow; */
+    height: 110px;
+}
+
+.fa-instagram{
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+.fa-facebook{
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+#logo_SMN{
+    height: 110px;
+    width: 15vw;
+    
+}
+
+.col5, .col6, .col7, .col8, .col9{
+
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.col5:hover, .col6:hover, .col7:hover, .col8:hover, .col9:hover{
+
+    color: #470202;;
+}
+
+/* page des services */
+
+.grille{
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 500px);
+    grid-gap: 40px;
+    /* border: 2px solid green; */
+    justify-content: center;
+    margin: auto;
+}
+
+.grid-item{
+
+    width: 500px;
+    height: 300px;
+    /* border: 2px solid blue; */
+    margin: auto;
+    /* transform: translateX( 80% );
+    transform: translateY( 50% ); */
+    
+
+}
+h3{
+    text-align: center;
+
+}
+
+.premier_titre{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.premier_paragraphe{
+    width: 80%;
+    margin:0 auto 60px;
+    text-align: justify;
+    
+}
+
+.deuxieme_paragraphe{
+
+    text-align: justify;
+   
+}
+
+/* page à propos */
+
+
+.row.a_propos{
+
+    background-color: white;
+   
+}
+
+.image_nettoyage{
+
+    width: 450px;
+    height: 300px;
+    padding-left: 50px;
+
+}
+
+.image_entrepreneuse{
+
+    width: 350px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.col_histoire{
+
+    background-color: #65ecbd;
+    padding-left: 80px;
+    /* border: 2px solid red;
+     */
+}
+
+
+.col_image_histoire{
+
+    background-color: #65ecbd;
+    padding-left: 40px;
+}
+
+
+.image_avantages{
+
+    width: 200px;
+    height: 200px;
+    margin-right: 250px;
+    
+}
+
+
+.col_valeurs{
+    background-color: #01B5EA;
+    padding-left: 120px;
+}
+
+.col_image_valeurs{
+    background-color: #01B5EA;
+}
+
+
+.col_avantages{
+    padding-left: 80px;
+}
+
+.col_image_avantages{
+    padding-right: 80px;
+   
+}
+
+.rubrique_bureau{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid red;
+}
