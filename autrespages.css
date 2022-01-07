@@ -158,3 +158,73 @@ h3{
     flex-wrap: wrap;
     border: 2px solid red;
 }
+
+
+
+.presentation_service{
+    background-color: #e5f4ff;
+    width: 80%;
+    margin: auto;
+}
+
+.premier_titre{
+    background: rgb(2, 2, 68);
+    color: white;
+    height: 40px;
+}
+
+
+.deuxieme_titre{
+
+    background: rgb(2, 2, 68);
+    color: white;
+    height: 100px;
+}
+
+.troisieme_titre{
+    background: rgb(2, 2, 68);
+    color: white;
+    height: 40px;
+}
+
+
+.grid-item{
+
+    background-color: #e5f4ff;
+    margin-top: 0;
+}
+
+.grid-item.un{
+
+    background-color: #e5f4ff;
+    height: auto;
+}
+
+
+.espace_reservation{
+    height: 650px;
+    width: 90%;
+    margin:auto;
+    position: relative;
+
+}
+
+.bouton_action{
+
+    background: white;
+    height: 150px;
+    width: 400px;
+    position: absolute;
+    top: 50px;
+    left: 160px;
+
+    transform: translate(50%, 50%);
+
+}
+
+
+#creneau{
+    background-color:rgb(2, 2, 68);
+    border-radius: 30%;
+    color: white;
+}
