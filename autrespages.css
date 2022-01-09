@@ -202,7 +202,7 @@ h3{
 
 
 .espace_reservation{
-    height: 650px;
+    height: 450px;
     width: 90%;
     margin:auto;
     position: relative;
@@ -225,6 +225,86 @@ h3{
 
 #creneau{
     background-color:rgb(2, 2, 68);
-    border-radius: 30%;
+    border-radius: 10px 10px  ;
     color: white;
+    width: 200px;
+}
+
+
+
+.row.Menage_bureau{
+
+    width: 33%;
+    height: 200px;
+    margin: auto;
+}
+
+.row.Menage_maison{
+
+    width: 33%;
+    height: 200px;
+    margin: auto;
+}
+
+
+.row.Menage_hote{
+
+    width: 33%;
+    height: 200px;
+    margin: auto;
+  
+}
+
+.row.Menage_PartieCommune{
+
+    width: 33%;
+    height: 200px;
+    margin: auto;
+  
+}
+
+.row.Menage_Demenagement{
+
+    width: 33%;
+    height: 200px;
+    margin: auto;
+  
+}
+
+
+.row.Menage_Moquette{
+
+    width: 33%;
+    height: 200px;
+    margin: auto;
+  
+}
+
+
+.ensemble_des_services{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    border: 2px solid red ;
+}
+
+.col_MenageBureau{
+
+    background-color:#e7aae3;
+}
+
+.col_Img_MenageBureau {
+    background-color:#e7aae3;
+}
+
+
+.col_Menagehote{
+    background-color: #7facf5;
+}
+
+.col_Img_Menagehote{
+    background-color:#7facf5 ;
 }
