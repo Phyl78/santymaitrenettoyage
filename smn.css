@@ -474,3 +474,39 @@ h2{
 body{
     /* border: 2px solid red; */
 }
+
+
+.RetourEnHaut
+{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    color: white;
+    text-decoration: white;
+    opacity: 0;
+    transition: all .4s;
+
+
+}
+
+.RetourEnHaut.active{
+
+        background-color: black;
+        width: 65px;
+        height: 13%;
+        bottom: 32px;
+        pointer-events: auto;
+        opacity: 1;
+        position: fixed;
+        /* color: violet; */
+
+        
+}
