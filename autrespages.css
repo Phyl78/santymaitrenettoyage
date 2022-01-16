@@ -170,7 +170,7 @@ h3{
 .premier_titre{
     background: rgb(2, 2, 68);
     color: white;
-    height: 40px;
+    height: auto;
 }
 
 
@@ -178,14 +178,15 @@ h3{
 
     background: rgb(2, 2, 68);
     color: white;
-    height: 100px;
+    height: auto;
 }
 
 .troisieme_titre{
     background: rgb(2, 2, 68);
     color: white;
-    height: 40px;
+    height: auto;
 }
+
 
 
 .grid-item{
@@ -310,8 +311,15 @@ h3{
 }
 
 
-.col_text_bureau{
+.col_Img_Moquette{
+border: 2px solid red ;
+padding: 0;
 
-  
+height: 25.5vh;
 
 }
+
+
+
+/* page nos salariés */
+
