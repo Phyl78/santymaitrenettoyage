@@ -106,14 +106,20 @@ h3{
 .image_entrepreneuse{
 
     width: 350px;
-    height: 300px;
+    height: 270px;
     border-radius: 50%;
 }
 
 .col_histoire{
 
-    background-color: #65ecbd;
+    background-image: url(images/abstract2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 310px;
     padding-left: 80px;
+    color: white;
+    position: relative;
+    
     /* border: 2px solid red;
      */
 }
@@ -122,6 +128,10 @@ h3{
 .col_image_histoire{
 
     background-color: #65ecbd;
+    
+    /* background-image: url(images/abstract2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
     padding-left: 40px;
 }
 
@@ -134,6 +144,12 @@ h3{
     
 }
 
+.image_valeurs{
+    /* margin: 0;  */
+    padding: 20px;
+    margin: auto;
+}
+
 
 .col_valeurs{
     background-color: #01B5EA;
@@ -142,6 +158,7 @@ h3{
 
 .col_image_valeurs{
     background-color: #01B5EA;
+  
 }
 
 
@@ -153,6 +170,13 @@ h3{
     padding-right: 80px;
    
 }
+
+.col_debut {
+    background-image: url(images/carre.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .rubrique_bureau{
     display: flex;
